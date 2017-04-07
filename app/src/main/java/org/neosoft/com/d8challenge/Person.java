@@ -5,8 +5,11 @@ package org.neosoft.com.d8challenge;
  */
 
 public class Person {
-    private String username;
-    private String password;
+    private String username = "root";
+    private String password = "1234";
+
+    public Person() {
+    }
 
     public Person(String firstname, String lastname) {
         this.username = firstname;
